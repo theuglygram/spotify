@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Circular";
+  src: url("fonts/Circular Std Book.otf") format("OpenType");
+}
+@font-face {
+  font-family: "Circular Bold";
+  src: url("fonts/Circular Std Bold.otf") format("OpenType");
+}
+@font-face {
+  font-family: "Circular Medium";
+  src: url("fonts/Circular Std Medium.otf") format("OpenType");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Circular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }
